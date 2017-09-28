@@ -2,7 +2,7 @@
 
 Make tic-tac-toe
 
-##Rules
+## Rules
 
 1. Use the symbols X and O
 2. X goes first.
