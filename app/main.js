@@ -28,15 +28,28 @@ function startGame () {
 	}
 }
 
-
 function takeSpace() {
 
 	turn++;
 	this.innerHTML = symbols[turn % 2];
 	this.removeEventListener("click", takeSpace);
 
+	for (i = 0; i < wins.length; i++) {
+		if (checkForWin(wins[i])) {
+			alert ("whoo hoo!");
+		}
+	}
 }
 
+
+function checkForWin(winArray) {
+
+
+	return spaces[winArray[0]] !== '' &&
+		spaces[winArray[0]] === spaces[winArray[1]] &&
+		spaces[winArray[0]] === spaces[winArray[2]];
+
+		}
 
 
 
