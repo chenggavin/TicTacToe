@@ -45,7 +45,9 @@ function takeSpace() {
 			winnerMessage.innerHTML = "yayyyy!!!! " + currentPlayer + " won!!!!!!";
 		}
 		else {
+			// On 9th turn, there has been a draw.
 			if (turn == 9) {
+				// Unless X wins on the 9th turn
 				if (notification.style.display != 'block') {
 
 				notification.style.display = "block";
