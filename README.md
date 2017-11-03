@@ -1,4 +1,8 @@
 # Tic-tac-toe
 
-A recreation of the childhood table-flipper. 
-Coded in HTML
+A clone of childhood game: Tic Tac Toe.
+
+
+## Technologies
+
+HTML, CSS , JavaScript , and Bootstrap.
